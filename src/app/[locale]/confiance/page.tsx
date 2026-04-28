@@ -1,4 +1,4 @@
-import { getTranslations } from 'next-intl/server'
+import { getTranslations, setRequestLocale } from 'next-intl/server'
 import Navbar from '@/components/public/Navbar'
 import Footer from '@/components/public/Footer'
 import WhatsAppButton from '@/components/public/WhatsAppButton'
@@ -10,6 +10,7 @@ export default async function ConfiancePage({
   params: Promise<{ locale: string }>
 }) {
   const { locale } = await params
+  setRequestLocale(locale)
   const t = await getTranslations('trust')
 
   const items = [

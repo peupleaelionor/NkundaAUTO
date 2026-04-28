@@ -1,3 +1,4 @@
+import { setRequestLocale } from 'next-intl/server'
 import { prisma } from '@/lib/prisma'
 import Navbar from '@/components/public/Navbar'
 import Footer from '@/components/public/Footer'
@@ -24,6 +25,7 @@ export default async function VehiclesPage({
   params: Promise<{ locale: string }>
 }) {
   const { locale } = await params
+  setRequestLocale(locale)
   const vehicles = await getVehicles()
 
   const brands = [...new Set(vehicles.map((v) => v.brand))].sort()

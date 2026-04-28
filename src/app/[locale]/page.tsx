@@ -1,4 +1,4 @@
-import { getTranslations } from 'next-intl/server'
+import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { prisma } from '@/lib/prisma'
 import Navbar from '@/components/public/Navbar'
 import Footer from '@/components/public/Footer'
@@ -29,6 +29,7 @@ export default async function HomePage({
   params: Promise<{ locale: string }>
 }) {
   const { locale } = await params
+  setRequestLocale(locale)
   const t = await getTranslations('home')
   const featured = await getFeaturedVehicles()
 
