@@ -1,0 +1,191 @@
+{
+  "nav": {
+    "home": "Ndako",
+    "vehicles": "Milinga",
+    "findMyVehicle": "Koyeba elinga na ngai",
+    "services": "Misala",
+    "trust": "Kondima",
+    "contact": "Koyanola",
+    "admin": "Admin"
+  },
+  "hero": {
+    "title": "Molinga na yo ya kondima na RDC",
+    "subtitle": "NkundaAuto — Sombá mpe tékisá milinga na motema molamu na Kinshasa mpe na RDC mobimba.",
+    "cta_browse": "Tala milinga",
+    "cta_find": "Koyeba elinga na ngai",
+    "cta_whatsapp": "WhatsApp"
+  },
+  "home": {
+    "featuredTitle": "Milinga ya kitoko",
+    "featuredSubtitle": "Yeba milinga na biso oyo etaliamaki malamu",
+    "viewAll": "Tala stock mobimba",
+    "whyTitle": "Mpo na nini NkundaAuto?",
+    "whySubtitle": "Topesaka expérience ya kokangama mpe ya kondima",
+    "trustTitle": "Bakondimaka biso",
+    "trustSubtitle": "Basombi ebele ya bavezele na RDC mobimba"
+  },
+  "vehicles": {
+    "title": "Stock na biso",
+    "subtitle": "Yeba elinga oyo ekoki na yo",
+    "filter": "Kofiltrer",
+    "sort": "Kotria",
+    "search": "Koluka...",
+    "noResults": "Milinga ezwamaki te",
+    "available": "Ezali",
+    "reserved": "Ekanisami",
+    "sold": "Etekisamaki",
+    "details": "Tala makambo",
+    "contact": "Koyanola",
+    "whatsapp": "WhatsApp",
+    "km": "km",
+    "year": "Mbula",
+    "fuel": "Mafuta",
+    "transmission": "Transmission",
+    "condition": "État",
+    "city": "Engumba",
+    "price": "Prix",
+    "mileage": "Kilométrage",
+    "description": "Toli",
+    "photos": "Bifoto",
+    "interested": "Nalingi oyo",
+    "askQuestion": "Tuna motuna",
+    "reserve": "Kokanga",
+    "requestVideo": "Saba vidéo",
+    "shareWhatsApp": "Kabola na WhatsApp",
+    "allBrands": "Bamarque nyonso",
+    "allFuel": "Mafuta nyonso",
+    "allTransmission": "Transmission nyonso",
+    "allCondition": "État nyonso",
+    "allStatus": "Statut nyonso",
+    "priceAsc": "Prix ekei likoló",
+    "priceDesc": "Prix ekei nse",
+    "newest": "Ya sika",
+    "oldest": "Ya kala",
+    "essence": "Essence",
+    "diesel": "Diesel",
+    "hybride": "Hybride",
+    "electrique": "Électrique",
+    "manuelle": "Manuelle",
+    "automatique": "Automatique",
+    "excellent": "Kitoko mingi",
+    "bon": "Malamu",
+    "correct": "Correct",
+    "a_reviser": "Esengeli kotala"
+  },
+  "findVehicle": {
+    "title": "Koyeba elinga na ngai",
+    "subtitle": "Oyebaki te oyo oluki? Longebola elinga na yo mpe tokoyanola na yo.",
+    "name": "Kombo na yo mobimba",
+    "phone": "Téléphone / WhatsApp",
+    "email": "Email (po soki ozali na yango)",
+    "city": "Engumba na yo",
+    "budgetMin": "Budget ya mike (USD)",
+    "budgetMax": "Budget ya monene (USD)",
+    "brand": "Marque olingi",
+    "model": "Modèle olingi",
+    "usage": "Mosala ya liboso",
+    "usageOptions": {
+      "ville": "Engumba",
+      "famille": "Libota",
+      "business": "Biznis",
+      "terrain": "Terrain",
+      "livraison": "Kolékisa",
+      "budget": "Budget mike"
+    },
+    "diaspora": "Nazali na diaspora",
+    "notes": "Makambo mosusu",
+    "submit": "Tinda demande na ngai",
+    "success": "Demande etindamaki! Tokoyanola na yo na kala te.",
+    "error": "Likosá elongaki. Sala lisusu."
+  },
+  "services": {
+    "title": "Misala na biso",
+    "subtitle": "NkundaAuto atelemi na yo banda ebandeli kino suka",
+    "buying": {
+      "title": "Kosomba molinga",
+      "desc": "Yeba elinga ya malamu na stock na biso to tobatela yo."
+    },
+    "selling": {
+      "title": "Kotéka molinga",
+      "desc": "Tékisa molinga na yo noki mpe na prix ya malamu."
+    },
+    "inspection": {
+      "title": "Inspection ya technique",
+      "desc": "Molinga nyonso etalelami liboso ya kotia na liste."
+    },
+    "financing": {
+      "title": "Kobongisa paiement",
+      "desc": "Banga paiement na yo na bapartenaire na biso."
+    },
+    "diaspora": {
+      "title": "Misala ya Diaspora",
+      "desc": "Somba wana ozali pembeni mpo na bato na yo na RDC."
+    },
+    "delivery": {
+      "title": "Kolékisa na mboka",
+      "desc": "Kolékisa ezali na bingumba minene na RDC."
+    }
+  },
+  "trust": {
+    "title": "Boyokani na biso",
+    "subtitle": "Kondima ezali na motema ya misala na biso",
+    "transparency": {
+      "title": "Boyebisi ya kokangama",
+      "desc": "Prix ya solo, histoire ya molinga, makambo ya somo te."
+    },
+    "inspection": {
+      "title": "Milinga etalelami",
+      "desc": "Molinga nyonso ekatami liboso ya kotia na liste."
+    },
+    "support": {
+      "title": "Lisungi sima ya kotéka",
+      "desc": "Tozali na yo liboso mpe sima ya kotéka."
+    },
+    "secure": {
+      "title": "Transactions ekangamaki",
+      "desc": "Paiement ekangamaki mpe contrats ya solo."
+    }
+  },
+  "contact": {
+    "title": "Koyanola na biso",
+    "subtitle": "Tozali pona koyamba mituna na yo nyonso",
+    "name": "Kombo na yo mobimba",
+    "phone": "Téléphone",
+    "email": "Email",
+    "message": "Pesela",
+    "submit": "Tinda",
+    "success": "Pesela etindamaki! Tokoyanola na yo na kala te.",
+    "whatsappDirect": "Koma na WhatsApp",
+    "address": "Adresse",
+    "hours": "Ntango",
+    "hoursValue": "Mokolo-Sabala: 8h-18h"
+  },
+  "footer": {
+    "tagline": "Partenaire na yo ya milinga ya kondima na RDC",
+    "links": "Links ya noki",
+    "contact": "Koyanola",
+    "legal": "Mibeko",
+    "rights": "Makoki nyonso ekangamaki",
+    "privacy": "Politique ya confidence"
+  },
+  "common": {
+    "loading": "Kozela...",
+    "error": "Likosá",
+    "back": "Kozongela",
+    "next": "Elongi",
+    "previous": "Liboso",
+    "close": "Kofungola",
+    "save": "Kobomba",
+    "cancel": "Kolongola",
+    "delete": "Koboma",
+    "edit": "Kobongisa",
+    "view": "Kotala",
+    "search": "Koluka",
+    "filter": "Kofiltrer",
+    "reset": "Kozongisa",
+    "learnMore": "Yeba lisusu",
+    "contactUs": "Koyanola na biso",
+    "viewAll": "Tala nyonso",
+    "currency": "USD"
+  }
+}

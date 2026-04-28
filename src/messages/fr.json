@@ -1,0 +1,191 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "vehicles": "Véhicules",
+    "findMyVehicle": "Trouver mon véhicule",
+    "services": "Services",
+    "trust": "Confiance",
+    "contact": "Contact",
+    "admin": "Admin"
+  },
+  "hero": {
+    "title": "Votre véhicule de confiance en RDC",
+    "subtitle": "NkundaAuto — Achetez et vendez des véhicules en toute confiance à Kinshasa et dans toute la République Démocratique du Congo.",
+    "cta_browse": "Voir les véhicules",
+    "cta_find": "Trouver mon véhicule",
+    "cta_whatsapp": "WhatsApp"
+  },
+  "home": {
+    "featuredTitle": "Véhicules en vedette",
+    "featuredSubtitle": "Découvrez notre sélection de véhicules soigneusement inspectés",
+    "viewAll": "Voir tout le stock",
+    "whyTitle": "Pourquoi choisir NkundaAuto ?",
+    "whySubtitle": "Nous offrons une expérience d'achat transparente et fiable",
+    "trustTitle": "Ils nous font confiance",
+    "trustSubtitle": "Des centaines de clients satisfaits à travers la RDC"
+  },
+  "vehicles": {
+    "title": "Notre Stock",
+    "subtitle": "Trouvez le véhicule qui vous correspond",
+    "filter": "Filtrer",
+    "sort": "Trier",
+    "search": "Rechercher...",
+    "noResults": "Aucun véhicule trouvé",
+    "available": "Disponible",
+    "reserved": "Réservé",
+    "sold": "Vendu",
+    "details": "Voir les détails",
+    "contact": "Contacter",
+    "whatsapp": "WhatsApp",
+    "km": "km",
+    "year": "Année",
+    "fuel": "Carburant",
+    "transmission": "Transmission",
+    "condition": "État",
+    "city": "Ville",
+    "price": "Prix",
+    "mileage": "Kilométrage",
+    "description": "Description",
+    "photos": "Photos",
+    "interested": "Je suis intéressé",
+    "askQuestion": "Poser une question",
+    "reserve": "Réserver",
+    "requestVideo": "Demander une vidéo",
+    "shareWhatsApp": "Partager sur WhatsApp",
+    "allBrands": "Toutes les marques",
+    "allFuel": "Tous carburants",
+    "allTransmission": "Toutes transmissions",
+    "allCondition": "Tous états",
+    "allStatus": "Tous statuts",
+    "priceAsc": "Prix croissant",
+    "priceDesc": "Prix décroissant",
+    "newest": "Plus récent",
+    "oldest": "Plus ancien",
+    "essence": "Essence",
+    "diesel": "Diesel",
+    "hybride": "Hybride",
+    "electrique": "Électrique",
+    "manuelle": "Manuelle",
+    "automatique": "Automatique",
+    "excellent": "Excellent",
+    "bon": "Bon",
+    "correct": "Correct",
+    "a_reviser": "À réviser"
+  },
+  "findVehicle": {
+    "title": "Trouver mon véhicule",
+    "subtitle": "Vous ne trouvez pas ce que vous cherchez ? Décrivez votre véhicule idéal et nous vous contacterons.",
+    "name": "Nom complet",
+    "phone": "Téléphone / WhatsApp",
+    "email": "Email (optionnel)",
+    "city": "Votre ville",
+    "budgetMin": "Budget minimum (USD)",
+    "budgetMax": "Budget maximum (USD)",
+    "brand": "Marque souhaitée",
+    "model": "Modèle souhaité",
+    "usage": "Usage principal",
+    "usageOptions": {
+      "ville": "Ville",
+      "famille": "Famille",
+      "business": "Business",
+      "terrain": "Tout-terrain",
+      "livraison": "Livraison",
+      "budget": "Petit budget"
+    },
+    "diaspora": "Je suis en diaspora",
+    "notes": "Remarques supplémentaires",
+    "submit": "Envoyer ma demande",
+    "success": "Demande envoyée ! Nous vous contacterons bientôt.",
+    "error": "Une erreur s'est produite. Veuillez réessayer."
+  },
+  "services": {
+    "title": "Nos Services",
+    "subtitle": "NkundaAuto vous accompagne de A à Z",
+    "buying": {
+      "title": "Achat de véhicule",
+      "desc": "Trouvez le véhicule idéal dans notre stock ou laissez-nous le sourcer pour vous."
+    },
+    "selling": {
+      "title": "Vente de véhicule",
+      "desc": "Vendez votre véhicule rapidement et au meilleur prix grâce à notre réseau."
+    },
+    "inspection": {
+      "title": "Inspection technique",
+      "desc": "Chaque véhicule est inspecté avant mise en vente pour garantir votre tranquillité."
+    },
+    "financing": {
+      "title": "Facilités de paiement",
+      "desc": "Étalez votre paiement avec nos partenaires financiers locaux."
+    },
+    "diaspora": {
+      "title": "Service Diaspora",
+      "desc": "Achetez depuis l'étranger pour vos proches en RDC en toute sécurité."
+    },
+    "delivery": {
+      "title": "Livraison nationale",
+      "desc": "Livraison disponible dans les principales villes de la RDC."
+    }
+  },
+  "trust": {
+    "title": "Notre Engagement",
+    "subtitle": "La confiance au cœur de notre métier",
+    "transparency": {
+      "title": "Transparence totale",
+      "desc": "Prix affichés, historique du véhicule, aucune surprise."
+    },
+    "inspection": {
+      "title": "Véhicules inspectés",
+      "desc": "Chaque voiture passe une inspection complète avant mise en vente."
+    },
+    "support": {
+      "title": "Support après-vente",
+      "desc": "Nous restons disponibles après la vente pour tout besoin."
+    },
+    "secure": {
+      "title": "Transactions sécurisées",
+      "desc": "Paiement sécurisé et contrats officiels pour chaque transaction."
+    }
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Nous sommes disponibles pour répondre à toutes vos questions",
+    "name": "Nom complet",
+    "phone": "Téléphone",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Envoyer",
+    "success": "Message envoyé ! Nous vous répondrons sous 24h.",
+    "whatsappDirect": "Écrire sur WhatsApp",
+    "address": "Adresse",
+    "hours": "Horaires",
+    "hoursValue": "Lun-Sam: 8h-18h"
+  },
+  "footer": {
+    "tagline": "Votre partenaire automobile de confiance en RDC",
+    "links": "Liens rapides",
+    "contact": "Contact",
+    "legal": "Mentions légales",
+    "rights": "Tous droits réservés",
+    "privacy": "Politique de confidentialité"
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "close": "Fermer",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "view": "Voir",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "reset": "Réinitialiser",
+    "learnMore": "En savoir plus",
+    "contactUs": "Nous contacter",
+    "viewAll": "Voir tout",
+    "currency": "USD"
+  }
+}
