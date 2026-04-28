@@ -1,0 +1,125 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id            String       @id @default(cuid())
+  name          String
+  email         String       @unique
+  password      String
+  phone         String?
+  role          String       @default("viewer")
+  isActive      Boolean      @default(true)
+  createdAt     DateTime     @default(now())
+  updatedAt     DateTime     @updatedAt
+  assignedLeads Lead[]       @relation("AssignedLeads")
+  activityLogs  ActivityLog[]
+  notes         LeadNote[]
+}
+
+model Vehicle {
+  id               String           @id @default(cuid())
+  slug             String           @unique
+  title            String
+  brand            String
+  model            String
+  year             Int
+  price            Float
+  currency         String           @default("USD")
+  mileage          Int?
+  fuelType         String
+  transmission     String
+  condition        String
+  city             String
+  description      String?
+  recommendedUsage String           @default("[]")
+  status           String           @default("available")
+  featured         Boolean          @default(false)
+  photos           String           @default("[]")
+  videoUrl         String?
+  internalNotes    String?
+  isPublic         Boolean          @default(true)
+  createdAt        DateTime         @default(now())
+  updatedAt        DateTime         @updatedAt
+  inquiries        VehicleInquiry[]
+}
+
+model Lead {
+  id             String           @id @default(cuid())
+  name           String
+  phone          String
+  whatsapp       String?
+  email          String?
+  city           String?
+  budgetMin      Float?
+  budgetMax      Float?
+  desiredBrand   String?
+  desiredModel   String?
+  usage          String?
+  notes          String?
+  source         String           @default("website")
+  status         String           @default("new")
+  diaspora       Boolean          @default(false)
+  assignedToId   String?
+  nextFollowUpAt DateTime?
+  createdAt      DateTime         @default(now())
+  updatedAt      DateTime         @updatedAt
+  assignedTo     User?            @relation("AssignedLeads", fields: [assignedToId], references: [id])
+  inquiries      VehicleInquiry[]
+  notes_list     LeadNote[]
+}
+
+model LeadNote {
+  id        String   @id @default(cuid())
+  content   String
+  leadId    String
+  authorId  String
+  createdAt DateTime @default(now())
+  lead      Lead     @relation(fields: [leadId], references: [id], onDelete: Cascade)
+  author    User     @relation(fields: [authorId], references: [id])
+}
+
+model VehicleInquiry {
+  id        String   @id @default(cuid())
+  vehicleId String?
+  leadId    String?
+  type      String
+  message   String?
+  createdAt DateTime @default(now())
+  vehicle   Vehicle? @relation(fields: [vehicleId], references: [id])
+  lead      Lead?    @relation(fields: [leadId], references: [id])
+}
+
+model ActivityLog {
+  id         String   @id @default(cuid())
+  actorId    String?
+  entityType String
+  entityId   String
+  action     String
+  payload    String?
+  createdAt  DateTime @default(now())
+  actor      User?    @relation(fields: [actorId], references: [id])
+}
+
+model Testimonial {
+  id         String   @id @default(cuid())
+  clientName String
+  quote      String
+  location   String?
+  photoUrl   String?
+  published  Boolean  @default(false)
+  createdAt  DateTime @default(now())
+}
+
+model SiteContent {
+  id        String   @id @default(cuid())
+  key       String   @unique
+  value     String
+  locale    String   @default("fr")
+  updatedAt DateTime @updatedAt
+}

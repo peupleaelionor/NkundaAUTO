@@ -1,0 +1,191 @@
+{
+  "nav": {
+    "home": "Home",
+    "vehicles": "Vehicles",
+    "findMyVehicle": "Find My Vehicle",
+    "services": "Services",
+    "trust": "Trust",
+    "contact": "Contact",
+    "admin": "Admin"
+  },
+  "hero": {
+    "title": "Your trusted vehicle partner in DRC",
+    "subtitle": "NkundaAuto — Buy and sell vehicles with confidence in Kinshasa and across the Democratic Republic of Congo.",
+    "cta_browse": "Browse Vehicles",
+    "cta_find": "Find My Vehicle",
+    "cta_whatsapp": "WhatsApp"
+  },
+  "home": {
+    "featuredTitle": "Featured Vehicles",
+    "featuredSubtitle": "Discover our selection of carefully inspected vehicles",
+    "viewAll": "View All Stock",
+    "whyTitle": "Why Choose NkundaAuto?",
+    "whySubtitle": "We offer a transparent and reliable buying experience",
+    "trustTitle": "They Trust Us",
+    "trustSubtitle": "Hundreds of satisfied customers across the DRC"
+  },
+  "vehicles": {
+    "title": "Our Stock",
+    "subtitle": "Find the vehicle that suits you",
+    "filter": "Filter",
+    "sort": "Sort",
+    "search": "Search...",
+    "noResults": "No vehicles found",
+    "available": "Available",
+    "reserved": "Reserved",
+    "sold": "Sold",
+    "details": "View Details",
+    "contact": "Contact",
+    "whatsapp": "WhatsApp",
+    "km": "km",
+    "year": "Year",
+    "fuel": "Fuel",
+    "transmission": "Transmission",
+    "condition": "Condition",
+    "city": "City",
+    "price": "Price",
+    "mileage": "Mileage",
+    "description": "Description",
+    "photos": "Photos",
+    "interested": "I am interested",
+    "askQuestion": "Ask a question",
+    "reserve": "Reserve",
+    "requestVideo": "Request a video",
+    "shareWhatsApp": "Share on WhatsApp",
+    "allBrands": "All brands",
+    "allFuel": "All fuel types",
+    "allTransmission": "All transmissions",
+    "allCondition": "All conditions",
+    "allStatus": "All statuses",
+    "priceAsc": "Price ascending",
+    "priceDesc": "Price descending",
+    "newest": "Newest",
+    "oldest": "Oldest",
+    "essence": "Petrol",
+    "diesel": "Diesel",
+    "hybride": "Hybrid",
+    "electrique": "Electric",
+    "manuelle": "Manual",
+    "automatique": "Automatic",
+    "excellent": "Excellent",
+    "bon": "Good",
+    "correct": "Fair",
+    "a_reviser": "Needs service"
+  },
+  "findVehicle": {
+    "title": "Find My Vehicle",
+    "subtitle": "Can't find what you're looking for? Describe your ideal vehicle and we'll contact you.",
+    "name": "Full name",
+    "phone": "Phone / WhatsApp",
+    "email": "Email (optional)",
+    "city": "Your city",
+    "budgetMin": "Minimum budget (USD)",
+    "budgetMax": "Maximum budget (USD)",
+    "brand": "Desired brand",
+    "model": "Desired model",
+    "usage": "Primary use",
+    "usageOptions": {
+      "ville": "City",
+      "famille": "Family",
+      "business": "Business",
+      "terrain": "Off-road",
+      "livraison": "Delivery",
+      "budget": "Budget"
+    },
+    "diaspora": "I am in the diaspora",
+    "notes": "Additional notes",
+    "submit": "Send my request",
+    "success": "Request sent! We will contact you soon.",
+    "error": "An error occurred. Please try again."
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "NkundaAuto guides you every step of the way",
+    "buying": {
+      "title": "Vehicle Purchase",
+      "desc": "Find the perfect vehicle in our stock or let us source it for you."
+    },
+    "selling": {
+      "title": "Vehicle Sale",
+      "desc": "Sell your vehicle quickly and at the best price through our network."
+    },
+    "inspection": {
+      "title": "Technical Inspection",
+      "desc": "Every vehicle is inspected before listing to guarantee your peace of mind."
+    },
+    "financing": {
+      "title": "Payment Plans",
+      "desc": "Spread your payment with our local financial partners."
+    },
+    "diaspora": {
+      "title": "Diaspora Service",
+      "desc": "Buy from abroad for your loved ones in DRC safely."
+    },
+    "delivery": {
+      "title": "National Delivery",
+      "desc": "Delivery available in major cities across the DRC."
+    }
+  },
+  "trust": {
+    "title": "Our Commitment",
+    "subtitle": "Trust at the heart of our business",
+    "transparency": {
+      "title": "Full Transparency",
+      "desc": "Listed prices, vehicle history, no surprises."
+    },
+    "inspection": {
+      "title": "Inspected Vehicles",
+      "desc": "Every car goes through a complete inspection before listing."
+    },
+    "support": {
+      "title": "After-Sales Support",
+      "desc": "We remain available after the sale for any needs."
+    },
+    "secure": {
+      "title": "Secure Transactions",
+      "desc": "Secure payment and official contracts for every transaction."
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We are available to answer all your questions",
+    "name": "Full name",
+    "phone": "Phone",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Send",
+    "success": "Message sent! We will respond within 24h.",
+    "whatsappDirect": "Write on WhatsApp",
+    "address": "Address",
+    "hours": "Hours",
+    "hoursValue": "Mon-Sat: 8am-6pm"
+  },
+  "footer": {
+    "tagline": "Your trusted automotive partner in DRC",
+    "links": "Quick links",
+    "contact": "Contact",
+    "legal": "Legal",
+    "rights": "All rights reserved",
+    "privacy": "Privacy Policy"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "search": "Search",
+    "filter": "Filter",
+    "reset": "Reset",
+    "learnMore": "Learn more",
+    "contactUs": "Contact us",
+    "viewAll": "View all",
+    "currency": "USD"
+  }
+}
