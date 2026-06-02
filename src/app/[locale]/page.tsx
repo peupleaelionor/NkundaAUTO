@@ -9,18 +9,32 @@ import WhatsAppButton from '@/components/public/WhatsAppButton'
 import Link from 'next/link'
 import type { Vehicle } from '@/types'
 
-async function getFeaturedVehicles(): Promise<Vehicle[]> {
-  const vehicles = await prisma.vehicle.findMany({
-    where: { featured: true, isPublic: true, status: { in: ['available', 'reserved'] } },
-    orderBy: { createdAt: 'desc' },
-    take: 6,
-  })
-  return vehicles.map((v) => ({
+function toVehicle(v: Awaited<ReturnType<typeof prisma.vehicle.findMany>>[number]): Vehicle {
+  return {
     ...v,
     photos: JSON.parse(v.photos) as string[],
     recommendedUsage: JSON.parse(v.recommendedUsage) as string[],
     status: v.status as Vehicle['status'],
-  }))
+  }
+}
+
+async function getFeaturedVehicles(): Promise<Vehicle[]> {
+  if (!process.env.DATABASE_URL) {
+    return []
+  }
+
+  try {
+    const vehicles = await prisma.vehicle.findMany({
+      where: { featured: true, isPublic: true, status: { in: ['available', 'reserved'] } },
+      orderBy: { createdAt: 'desc' },
+      take: 6,
+    })
+
+    return vehicles.map(toVehicle)
+  } catch (error) {
+    console.error('Unable to load featured vehicles', error)
+    return []
+  }
 }
 
 export default async function HomePage({
